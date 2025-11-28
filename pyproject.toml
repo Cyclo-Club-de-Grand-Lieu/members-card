@@ -1,11 +1,12 @@
 [project]
 name = "members-card"
 description = "Generation of members cards"
+license = "GPL-3.0-or-later"
 readme = "README.md"
 dynamic = ["version"]
 
 dependencies = [
-    "fpdf2",
+    "fpdf2 >= 2.8.3",
     "pandas",
     "qrcode"
 ]
